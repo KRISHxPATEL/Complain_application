@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Complain">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check The Detail Below"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registerer name :- "
+        android:gravity="left"
+        android:inputType="textPersonName"
+        android:id="@+id/reg_name"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registerer Phone Number :- "
+        android:gravity="left"
+        android:id="@+id/reg_number"
+        android:inputType="phone"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name- "
+        android:gravity="left"
+        android:id="@+id/hosname"
+        android:inputType="phone"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Address :- "
+        android:gravity="left"
+        android:id="@+id/hosadd"
+        android:inputType="phone"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Phone :- "
+        android:gravity="left"
+        android:id="@+id/Email"
+        android:inputType="phone"
+        android:layout_margin="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date of AMC expiring  :- "
+        android:gravity="left"
+        android:inputType="date"
+        android:id="@+id/AMC_expiring"
+        android:layout_margin="20dp"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Description"
+        android:gravity="center"
+
+        android:id="@+id/discription"
+        android:inputType="text"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Complaint"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:id="@+id/reg_btn"
+        />
+
+
+
+</LinearLayout>

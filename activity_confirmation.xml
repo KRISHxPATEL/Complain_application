@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Confirmation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:layout_margin="10dp"
+        android:textColor="#000001"
+        android:text="Confirmation"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_baseline_check_24"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WE WILL ATTEND YOUR COMPLAIN SOON"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        android:textColor="#000001"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/namec"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#000001"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/addressc"
+        android:textSize="20dp"
+        android:lines="2"
+        android:layout_margin="10dp"
+        android:textColor="#000001"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/emailc"
+        android:textSize="20dp"
+        android:textColor="#000001"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/datec"
+        android:textSize="20dp"
+        android:textColor="#000001"
+        android:layout_margin="10dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Complain List -->"
+        android:id="@+id/listbtn"
+        />
+
+
+</LinearLayout>

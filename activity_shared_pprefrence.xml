@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SharedPprefrence">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+
+        app:srcCompat="@drawable/logo"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="188dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shital"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="#990000"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Surgical Co"
+            android:textStyle="bold"
+            android:gravity="left"
+            android:textSize="30dp"
+            android:textColor="#000099"
+            />
+
+    </LinearLayout>
+</LinearLayout>
